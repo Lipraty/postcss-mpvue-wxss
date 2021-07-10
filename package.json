@@ -1,6 +1,6 @@
 {
-  "name": "postcss-mpvue-wxss",
-  "version": "1.0.0",
+  "name": "postcss-mpvue-wxss-new",
+  "version": "1.0.1",
   "description": "PostCSS plugin for wxss",
   "keywords": [
     "postcss",
