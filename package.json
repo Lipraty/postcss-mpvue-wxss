@@ -8,6 +8,7 @@
     "postcss-plugin",
     "wxss"
   ],
+  "private": false,
   "author": "anchengjian <anchengjian@gmail.com>",
   "license": "MIT",
   "repository": "git@github.com:mpvue/postcss-mpvue-wxss.git",

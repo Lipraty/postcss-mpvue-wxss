@@ -2,12 +2,14 @@
 
 [PostCSS] plugin for wxss.
 
+> 修正一些格式化所带来的影响
+
 专门为 wxss 格式化处理的的一个 postcss 插件，特别是在做 css 转 wxss 的时候好用到爆。
 
 ## 实现的功能
 - 清理 wxss 不支持的选择器。
 - 清理 wxss 不支持的注释。
-- <del>转换 rem 单位到 rpx。</del>
+- <del>转换 rem 单位到 rpx。</del>微信小程序已经支持了rem单位。
 - 转换 Web 的标签选择器到小程序的 class 选择器。
 - style scoped（postcss插件部分）。
 
@@ -43,8 +45,8 @@ view {
   width: 50rpx;
 }
 .container {
-  width: 50rpx;
-  font-size: 24.4rpx
+  width: 7.5rem;
+  font-size: .24rem
 }
 ._div {
   width: 50rpx;
