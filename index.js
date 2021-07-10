@@ -46,9 +46,10 @@ module.exports = postcss.plugin('postcss-mpvue-wxss', function (options) {
       const { selector } = rule || {};
 
       // rem 转换 rpx
-      rule.replaceValues(remReg, replaceRemOption, str => {
-        return options.remToRpx * parseFloat(str) + 'rpx';
-      });
+      // 新的小程序wxss中支持了rem，移除这个让人恼火的特性
+      //rule.replaceValues(remReg, replaceRemOption, str => {
+      //  return options.remToRpx * parseFloat(str) + 'rpx';
+      //});
 
       rule.selector = selectorParser(function (selectors) {
         selectors.each(function (selector) {
