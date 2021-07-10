@@ -7,7 +7,7 @@
 ## 实现的功能
 - 清理 wxss 不支持的选择器。
 - 清理 wxss 不支持的注释。
-- 转换 rem 单位到 rpx。
+- <del>转换 rem 单位到 rpx。</del>
 - 转换 Web 的标签选择器到小程序的 class 选择器。
 - style scoped（postcss插件部分）。
 
